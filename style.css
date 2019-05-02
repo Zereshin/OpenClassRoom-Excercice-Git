@@ -14,9 +14,24 @@ body{
 	height: 200px;
 	background-color: #ecf0f1;
 	transition: 1s;
+	animation: changeColor 3s infinite;
 }
 
 #content:hover{
 	width: 150px;
 	height: 250px;
+}
+
+@keyframes changeColor{
+    0% {
+        background-color: #1abc9c
+    }
+
+    50% {
+        background-color: #2ecc71
+    }
+
+    100% {
+        background-color: #3498db
+    }
 }
