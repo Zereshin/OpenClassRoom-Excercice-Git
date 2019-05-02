@@ -13,4 +13,10 @@ body{
 	width: 200px;
 	height: 200px;
 	background-color: #ecf0f1;
+	transition: 1s;
+}
+
+#content:hover{
+	width: 150px;
+	height: 250px;
 }
